@@ -23,6 +23,34 @@ img {
   max-width: 100%;
 }
 
+/* NAVBAR */
+
+.navbar {
+  border: 1px solid lightcoral;
+  background: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  display: block;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: #4891ff;
+}
 /* UTILITY CLASSES */
 
 .container {
