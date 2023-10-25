@@ -64,6 +64,34 @@ img {
 .navbar ul li:last-child a {
   margin-left: 10px;
 }
+
+/* HERO */
+
+.hero {
+  border: 1px solid lightgreen;
+  margin-bottom: 50px;
+}
+
+.hero .container {
+  background: url("../images/hero-bg.png") no-repeat;
+  border: 1px solid darkblue;
+  background-size: contain;
+  background-position: center bottom;
+  height: 650px;
+}
+
+.hero .hero-content {
+  width: 70%;
+  /* border: 1px solid red; */
+  margin-bottom: 150px;
+  position: relative;
+  top: -51px;
+}
+
+.hero .hero-text {
+  width: 70%;
+  margin-bottom: 20px;
+}
 /* UTILITY CLASSES */
 
 .container {
@@ -110,4 +138,44 @@ img {
 .btn-block {
   display: block;
   width: 100%;
+}
+
+/* TEXT CLASSES */
+.text-xxl {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 40px 0 20px;
+}
+
+.text-lg {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 30px 0 20px;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 20px 0 10px;
+}
+
+.text-sm {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 10px 0 5px;
+}
+
+.text-center {
+  text-align: center;
 }
